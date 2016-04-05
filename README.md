@@ -2,7 +2,7 @@
 
 This small editor makes it easy to write and read markdown documents without any hassle. It is written in NW.js.
 
-![img](../small-markdown-editor.png)
+![img](https://github.com/bergice/Small-Markdown-Editor/blob/master/small-markdown-editor.png?raw=true)
 
 ## Features
 - Easy to use
