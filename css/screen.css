@@ -1,0 +1,117 @@
+@font-face {
+    font-family: GeosansLight;
+    src: url('../font/GeosansLight.ttf');
+}
+* {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow: none;
+}
+html,
+body {
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+body {
+    font-family: "GeosansLight";
+    color: #A7D48F;
+    padding-top: 30px;
+}
+a {
+    text-decoration: none !important;
+}
+.toolbar {
+    -webkit-app-region: drag;
+    cursor: default;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 32px;
+    font-size: 17px;
+    font-family: "GeosansLight";
+    display: block;
+    background-color: #379D00;
+    color: #E3F1DC;
+}
+#title {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    margin-top: 6px;
+    width: 100%;
+    text-align: center;
+}
+#content {
+    position: absolute;
+    top: 32px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+.icon {
+    position: absolute;
+    top: 0px;
+    width: 17px;
+    height: 17px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    float: right;
+}
+.icon :hover {
+ background-color: aqua;
+}
+.right {
+    right: 11px;
+}
+.left {
+    left: 11px;
+}
+#exit:hover {
+    background-color:aliceblue;
+}
+.md_editor {
+    font-family: Courier;
+    font-size: 14px;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 50%;
+    height: 100%;
+    resize: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .1);
+    background-color: #73BD4B;
+}
+textarea:active,
+textarea:focus {
+    outline: 0;
+}
+.md_result {
+    margin: 0;
+    padding: 10px 10px 13px 10px;
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    height: 100%;
+    overflow-y: auto;
+}
+
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}

@@ -1,0 +1,19 @@
+{
+  "name": "markdown_editor",
+  "main": "./html/index.html",
+  "window": {
+    "toolbar": false,
+    "show": true,
+    "frame": false,
+    "icon": "./img/icon.png",
+    "position": "center",
+    "width": 800,
+    "height": 600,
+    "min_width": 320,
+    "min_height": 240
+  },
+  "dependencies": {
+    "marked": "^0.3.3",
+    "color-scheme": "0.0.5"
+  }
+}
