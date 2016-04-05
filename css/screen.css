@@ -38,6 +38,21 @@ a {
     background-color: #379D00;
     color: #E3F1DC;
 }
+#dropdown {
+    visibility: hidden;
+    position: absolute;
+    top: 32px;
+    left: 0px;
+    background-color: darkslategrey;
+    z-index: 5;
+}
+#dropdown button {
+    display: block;
+    padding: 0px 50px;
+    margin: 0;
+    width: 100%;
+    background-color:coral;
+}
 #title {
     position: absolute;
     left: 0px;
@@ -62,8 +77,8 @@ a {
     margin-bottom: 6px;
     float: right;
 }
-.icon :hover {
- background-color: aqua;
+.icon:hover {
+    background-color: aqua;
 }
 .right {
     right: 11px;
@@ -72,7 +87,7 @@ a {
     left: 11px;
 }
 #exit:hover {
-    background-color:aliceblue;
+    background-color: aliceblue;
 }
 .md_editor {
     font-family: Courier;
@@ -100,18 +115,14 @@ textarea:focus {
     height: 100%;
     overflow-y: auto;
 }
-
-
 ::-webkit-scrollbar {
     width: 12px;
 }
-
 ::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
 }
-
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
 }
